@@ -1,0 +1,14 @@
+version: '3'
+services:
+    app1: 
+      image: salmanmd18/var_img_2
+      environment:
+      - image_name=${IMAGE_NAME_1}
+
+    app2:
+      image: salmanmd18/var_img _2
+      environment:
+      - image_name=${IMAGE_NAME_2}
+
+    
+
